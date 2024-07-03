@@ -1,0 +1,387 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: blue;
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    width: 100%;
+    background-color: aquamarine;
+    margin-bottom: 4520px;
+}
+
+
+body{
+    background: url(./asstes/img/god-of-war-ragnarÃ¶k-3840x2160-8636.jpg) no-repeat;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+
+.row{
+width:100%;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 0px;
+    margin-right: 20px;
+
+}
+
+a.nav-link{
+    color: blue;
+}
+
+
+/* Historia */
+
+.container-fluid{
+    transform: translateY(550px);
+}
+
+h1.historia{
+    
+    text-align: center;
+
+}
+
+p.historia{
+    
+    font-size: x-large;
+    text-align: center;
+    color: red;
+}
+
+img.historia{
+    position: relative;
+    width: 350px;
+    height: 435px;
+    transform: translate(150px, 0px);
+
+}
+
+a.historia{
+    color: blue;
+}
+
+/* Personaje */
+
+.container-fluid-1{
+    transform: translateY(550px);
+}
+
+h1.personaje{
+    text-align: center;
+}
+
+img.kratos{
+    width: 200px;
+    height: 270px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+img.kratos:hover{
+    width: 185px;
+    height: 215px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    
+}
+
+
+img.atreus{
+    width: 215px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+img.atreus:hover{
+    width: 170px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+}
+
+img.freya{
+    width: 207px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+img.freya:hover{
+    width: 165px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+}
+
+img.mimir{
+    width: 208px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+img.mimir:hover{
+    width: 165px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+}
+
+
+img.brok{
+    width: 210px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+img.brok:hover{
+    width: 160px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+}
+
+img.angrboda{
+    width: 215px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+img.angrboda:hover{
+    width: 170px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+}
+
+img.odin{
+    width: 215px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+img.odin:hover{
+    width: 170px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+}
+
+
+img.sindri{
+    width: 215px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+img.sindri:hover{
+    width: 170px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+}
+
+img.thor{
+    width: 215px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+img.thor:hover{
+    width: 170px;
+    box-shadow: 13px 15px 37px black;
+    border-radius: 5px;
+}
+
+
+.tns-outer{
+margin-top: -125px;
+
+}
+
+
+.tns-controls, .tns-nav{
+    text-align: center;
+    padding:10px;
+}   
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #FFAA00;
+    margin: 10px;
+    transform: translateY(500px)
+}   
+
+/* actores */
+
+.container-fluid-2{
+    transform: translateY(785px);
+}
+
+img.actores{
+    width: 300px;
+}
+
+.actores{
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+
+.botones{
+    transform: translateY(10px);
+}
+
+/* backgroud detras */
+.detras{
+
+    width: 100%;
+    height: 2150px;
+    margin-top: -810px;
+}
+
+
+
+/* video trailar */
+
+.container-fluid-3{
+    transform: translateY(-350px);
+}
+
+
+
+.trailar{
+    text-align: center;
+    
+}
+
+.video{
+    width: 100%;
+}
+
+/* background god of war rangonk*/
+
+.container-fluid-4{
+    background: url(../god-of-war/asstes/img/god-of-war-footer.png) no-repeat;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    transform: translateY(0px);
+}
+
+h1.texto, p, span{
+    text-align: center;
+    color: red;
+    font-size: 44px;
+}
+
+/* footer */
+
+.container-fluid-5{
+    background: url(../god-of-war/asstes/img/god-of-war-footer-2.png) no-repeat;
+    height: 555px;
+    background-size: cover;
+    background-position: center;
+    transform: translateY(0px);
+}
+
+.logo-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(1125px);
+}
+
+.logo-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    mix-blend-mode: luminosity;
+    transition: all;
+}
+
+
+
+.col-3, a.titulo{ 
+    text-align: left;
+    font-size: x-large;
+    color: blue;
+
+}
+
+.col-3, a.titulo:hover{ 
+    text-align: left;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+
+}
+
+ul, li, a{
+    text-align: left;
+    color:#FFAA00;
+   
+}
+
+ul, li, a:hover{
+    text-align: left;
+    color:darkred;
+   
+}
+
+/* config bg-inicio */
+
+.bg-inicio{
+    transform: translateY(113px);
+}
