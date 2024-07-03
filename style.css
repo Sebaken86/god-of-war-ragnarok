@@ -314,7 +314,7 @@ img.actores{
 /* background god of war rangonk*/
 
 .container-fluid-4{
-    background: url(../god-of-war-ragnarok/asstes/img/god-of-war-footer.png) no-repeat;
+    background: url(./asstes/img/god-of-war-footer.png) no-repeat;
     height: 750px;
     background-size: cover;
     background-position: center;
@@ -330,7 +330,7 @@ h1.texto, p, span{
 /* footer */
 
 .container-fluid-5{
-    background: url(../god-of-war-ragnarok/asstes/img/god-of-war-footer-2.png) no-repeat;
+    background: url(./asstes/img/god-of-war-footer-2.png) no-repeat;
     height: 555px;
     background-size: cover;
     background-position: center;
